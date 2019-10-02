@@ -1,0 +1,94 @@
+.Menu {
+    position: relative;
+     display: flex; 
+    align-items: center;
+    margin-right: 70px;
+    justify-content: center;
+}
+
+.Menu img {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    background: white;
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+}
+.Menu img:hover {
+    cursor: pointer;
+}
+
+.Menu a, .Menu p, .link {
+    font-size: 20px;
+    margin-left: 20px;
+    color :black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.Menu p:hover,.link:hover,.Menu a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.frame{
+    width:220px;
+    height: auto;
+    position: absolute;
+    background: #FA921F;
+    text-align: right;
+    box-shadow: 0 0 23px gray;
+    border-radius: 10px;
+    left:-50px;
+    top:56px;
+    padding: 10px;
+}
+.frame input{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px; 
+    padding: 8px;
+}
+.frame input:focus {
+    outline: none;
+}
+
+.frame button {
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    text-align: left;
+    background-color: #A01862;
+    color: white;
+    
+}
+
+.frame button:hover{
+    cursor: pointer;
+}
+.frame button:focus{
+    outline: none;
+}
+
+@media only screen and (max-width: 676px) {
+    .link,.Menu a, .Menu p {       
+        font-size: 18px;
+    }
+
+}
+@media only screen and (max-width: 576px) {
+    .Menu {
+        margin-top: 20px;
+    }
+    .link,.Menu a, .Menu p {       
+        font-size: 16px;
+    }
+};

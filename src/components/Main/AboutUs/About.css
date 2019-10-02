@@ -1,0 +1,57 @@
+.About {
+    height: 550px;
+    padding: 30px;
+    padding-left: 100px;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    text-align: left;
+    
+}
+
+h2 {
+    
+    margin-bottom: 50px;
+    display: inline-block;
+    border-bottom: 3px solid black;
+    text-decoration-line: underline
+}
+
+.aboutDown {
+    display: flex;
+    justify-content: space-between;
+}
+.aboutDown div {
+    width: 40%;
+}
+
+.aboutDown img{
+    width: 85%;
+    height: 85%;
+}
+
+@media only screen and (max-width: 768px) {
+    .About {
+        margin-top: 350px;
+    }
+    .aboutDown div {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .About {
+        margin-top: 700px;
+    }
+    .aboutDown {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .aboutDown div {
+        width: 95%;
+        text-align: left;
+    }
+    .aboutLeft {
+        margin-bottom: 50px;
+    }
+}

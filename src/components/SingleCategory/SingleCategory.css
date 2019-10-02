@@ -1,0 +1,60 @@
+.SingleCategory {
+    
+    text-align: left;
+    height: auto;
+}
+hr{
+    width : 80%;
+    margin: 0 auto;
+}
+.FeaturedMeal h3, .recomendationText{
+    
+    font-size: 1.7em;
+}
+
+
+.recomendation {
+    padding: 0;
+    margin-left: 60px;
+}
+.allMeals {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.SingleCategoryMeal {
+    width: 30%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+#searchBar {
+    padding-top: 100px;
+}
+.SingleCategoryMeal p{
+    font-size: 16px;
+    width: 100%;
+}
+
+.flexcontainer {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 576px) {
+    .SingleCategory {
+        padding-top: 70px;
+    }
+    .FeaturedMeal h3, .recomendationText{
+        margin-left: 40px;
+        font-size: 1.7em;
+    }
+}

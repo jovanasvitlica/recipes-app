@@ -1,0 +1,57 @@
+.Contact {
+    height: 600px;
+
+}
+
+.Contact form {
+    width: 25%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact input, .Contact textarea, .Contact button  {
+    margin:15px;
+    
+    
+}
+
+.Contact input, .Contact textarea{
+    width: 100%;
+    padding: 5px;
+}
+
+.Contact textarea{
+    height: 200px;
+}
+
+.Contact button  {
+    padding: 15px 40px;
+    background-color: #A01862;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.Contact button:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .Contact form {    
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .Contact {
+        margin-top : 150px;
+    }
+    .Contact form {    
+        width: 50%;
+    }
+}

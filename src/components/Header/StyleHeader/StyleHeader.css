@@ -1,0 +1,17 @@
+.StyleHeader {
+    background: #A01862;
+    padding: 20px;
+    height: 100px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+@media only screen and (max-width: 864px) {
+    .StyleHeader {
+        flex-direction: column;
+        height: 125px;
+    }
+}

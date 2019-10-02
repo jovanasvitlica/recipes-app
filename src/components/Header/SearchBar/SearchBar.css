@@ -1,0 +1,39 @@
+.Searchbar form{
+    
+    display: inline-block;
+    flex-flow: row wrap;
+    align-items: center;
+    
+}
+
+.Searchbar input{
+    padding:5px;
+    border-radius: 10px;
+    width:250px;
+    
+}
+.Searchbar button {
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    margin-bottom: 5px;
+    left:5px;
+    width: 28px;  
+    height: 25px;
+    background: white;
+    border-radius: 5px;
+    outline: none;
+    vertical-align: top;
+}
+
+.Searchbar button:hover {
+    cursor:pointer;
+}
+.Searchbar img {
+    
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    
+}

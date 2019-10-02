@@ -1,0 +1,10 @@
+.MyMealsRandom {
+    display: flex;
+}
+
+.myMeals h3 {
+    font-size: 35px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    
+}

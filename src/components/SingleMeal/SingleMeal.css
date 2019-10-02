@@ -1,0 +1,21 @@
+.SingleMeal{
+    height: auto;
+}
+
+.similar {
+    display: flex;
+    flex-wrap: wrap
+}
+.similarMeals h3 {
+    font-size: 30px;
+    text-align: start;
+}
+
+@media only screen and (max-width: 576px){
+    .SingleMeal{
+        margin-top: 50px;
+    }
+    .similarMeals h3 {
+        font-size: 28px;
+    }
+}

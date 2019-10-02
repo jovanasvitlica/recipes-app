@@ -1,0 +1,21 @@
+.searchPage {
+    text-align: left;
+    width: 100%;
+    height: auto;
+    
+}
+.titles{
+        margin-left: 110px;
+        margin-top: 20px;
+        text-align: left;
+    
+    }
+    .Dropdown {
+        text-align: right;
+    }
+    .searchedResults {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        
+    }

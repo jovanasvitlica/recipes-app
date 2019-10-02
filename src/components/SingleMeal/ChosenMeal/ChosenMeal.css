@@ -1,0 +1,101 @@
+.ChosenMeal{
+    width: 90%;
+    height: auto;
+    margin: 40px 20px;
+}
+
+.ChosenUpperr {
+    display: flex;
+    height: auto;
+
+}
+
+.UpperrLeft {
+    width: 45%;
+    height: auto;
+}
+.UpperrLeft h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.UpperrLeft img {
+    width:500px;
+    height: 400px;
+}
+
+.UpperrRight {
+    width: 50%;
+    height: auto;
+    text-align: left;
+    margin-left: 30px;
+    
+    
+}
+.UpperrRight p {
+    font-size: 16px !important;
+    margin-bottom: 10px;
+}
+.UpperrRight a{
+    text-decoration: none;
+}
+.instruction {
+    margin-top: 70px;
+}
+
+.bold {
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+.ChosenDown{
+    display: flex;
+
+}
+.ChosenDown p{
+    font-weight: bold;
+}
+
+.ingredients {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ChosenDown ul {
+    list-style: none;
+}
+.ChosenDown li{
+    margin: 5px;
+}
+@media only screen and (max-width: 968px) {
+    .UpperrLeft img {
+        width:300px;
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .ChosenUpperr {
+        
+        flex-direction: column;
+        
+    
+    }
+    .UpperrRight {
+        width:90%;
+    }
+    .ChosenDown{
+        justify-content: center;
+        align-items: center; 
+    
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .UpperrLeft {
+        width: 85%;
+    }
+    .ChosenDown{
+        justify-content: flex-start;
+        align-items:flex-start; 
+    
+    }
+}

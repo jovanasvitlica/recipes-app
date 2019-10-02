@@ -1,0 +1,54 @@
+.Footer {
+    width: 100%;
+    height: 220px;
+    background-color: #A01862;
+  
+}
+.UpperPart {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 30px;
+
+}
+
+.logo {
+    height: 110px;
+    width: 300px;
+}
+
+.Links {
+    width:150px;
+    
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.Links img {
+    width: 60px;
+    height: 60px;
+    
+}
+p{
+    text-align: center;
+     display: inline-block;
+     text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .logo {
+        height: 90px;
+        width: 180px;
+    }
+    .Links img {
+        width: 40px;
+        height: 40px;
+    }
+    .Links {
+        width:100px;
+       
+    }
+}
